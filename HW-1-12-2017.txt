@@ -9,3 +9,6 @@ either #2 or #3 above but not #1
 
 Exploring More ls Arguments:
 The -l arguments ensures that the ls command uses long format which shows the file/directory names as well as any additional information (file size and modification times). The -h argument turns the file into a "human-readable" size.
+
+Listing Recursively and By Time:
+The directories are listed alphabetically at each level, and the files/directories in each directory are arranged by time of last change.
