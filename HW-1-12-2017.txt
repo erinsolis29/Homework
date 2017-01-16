@@ -1,2 +1,5 @@
 Absolute vs. Relative Paths:
 cd ~; cd ~/data/..; cd; cd..
+
+Relative Path Resolution:
+original pnas_final pnas_sub
