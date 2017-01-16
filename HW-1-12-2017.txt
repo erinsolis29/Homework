@@ -1,0 +1,2 @@
+Absolute vs. Relative Paths:
+cd ~; cd ~/data/..; cd; cd..
