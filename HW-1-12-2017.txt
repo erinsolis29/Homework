@@ -3,3 +3,6 @@ cd ~; cd ~/data/..; cd; cd..
 
 Relative Path Resolution:
 original pnas_final pnas_sub
+
+ls Reading Comprehension:
+either #2 or #3 above but not #1
