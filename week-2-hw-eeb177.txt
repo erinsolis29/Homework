@@ -23,3 +23,8 @@ There are 28 unique families.
   591  cd ~/CSB/unix/
   592  grep -r "Gorilla" data/
   593  history 13 | less >> ~/Desktop/eeb-177/homework/week-2-hw-eeb177.txt
+
+553K
+16 contigs
+43 unique isogroups
+contig 00302; numreads=3330
