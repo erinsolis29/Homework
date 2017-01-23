@@ -35,4 +35,5 @@ contig 00302; numreads=3330
   672  history 2 | less >> ~/Desktop/eeb-177/homework/week-2-hw-eeb177.txt
 
 Using grep: grep -w "of" haiku.txt
+find Pipeline Reading Comprehension: this will give us a list of all the data files in or below that directory, count the lines in the files, and sort them numerically. 
   
