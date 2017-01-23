@@ -36,4 +36,5 @@ contig 00302; numreads=3330
 
 Using grep: grep -w "of" haiku.txt
 find Pipeline Reading Comprehension: this will give us a list of all the data files in or below that directory, count the lines in the files, and sort them numerically. 
+Matching and Subtracting: both commmands 2 and 3
   
