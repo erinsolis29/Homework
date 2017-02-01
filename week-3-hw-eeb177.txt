@@ -1,3 +1,33 @@
+1.11.2
 Question #1
 individual 3: sampled 61 times
 individual 27: sampled 5 times
+
+#! /bin/bash
+cut -f 1 $1 | grep -c -w $2
+#the first half of the code cuts to the first column of the file that we are looking for.
+#the second counts the occurances of the individuals. 
+
+#! /bin/bash
+individual_ids=$(tail -n +2 $1 | tr -s "\t" "," | cut -f 1 $1 | uniq)
+for ID in $individual_ids 
+ do
+	echo "Individual $ID was sampled this many times: "
+	tail -n +2 $1 | tr -s "\t" "," | grep -c $ID $1
+ done	
+#In order to do this, we need to idenitfy what we are looking for which is individual_ids
+#we need to feed that file and the specific row of that file into the for loop
+#the for loop will read every file and spit out the count for each individual
+#this loop will count every time each individual was sampled
+
+1.11.3
+#! /bin/bash
+echo "Name of File: $1"
+rows=$(tail -n +1 $1 | wc -l)
+echo "Number of Rows: $rows"
+columns=$(head -n +1 $1 | tr " " "\n" | wc -w)
+echo "Number of Columns: $columns"
+#this will count the rows and columns without the white space
+
+
+
