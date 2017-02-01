@@ -39,6 +39,8 @@ for feedfile in *.txt
 #this command needs to be run while in the Saavedra2013 folder so that the .txt file will be recognized
 #the loop will feed all of the folder's contents into it and count the rows and columns for each file within
 #it wille echo back the name and the counts
+n58.txt has the most rows
+n56.txt has the most columns
 
 
 
